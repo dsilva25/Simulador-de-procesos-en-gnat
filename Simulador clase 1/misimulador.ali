@@ -1,0 +1,145 @@
+V "GNAT Lib v4.6"
+M P AB W=b
+P SS ZX
+R nnnvnnnnnvnnnnnnnnnnnnnvnvnvvnnvnnnnnnnvnnvnvnnvnvnvvnnnnnvnnnnnnnnnnv3nv2nv1+nnnnnn
+
+U misimulador%b		misimulador.adb		3797c81c NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W random%s		random.adb		random.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W tiposemaforos%s	tiposemaforos.adb	tiposemaforos.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20090409150019 343c83dd
+D a-caldel.ads		20090409150019 9f20b83d
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-flteio.ads		20070406091342 e18a47a0
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-reatim.ads		20090409150019 63f07669
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20101021101406 c7695348
+D a-textio.ads		20091028140912 386df5d4
+D a-tiflio.ads		20090409150019 56fbda09
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20090409150019 f77d8799
+D i-c.ads		20101007125900 809c38c4
+D i-cstrea.ads		20100622165701 1bd72c32
+D misimulador.adb	20170410202906 11bcdd73
+D random.ads		20121027093926 45de46a1
+D system.ads		20140416172229 23e1f70b
+D s-atacco.ads		20090409150019 1dc856ad
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-linux.ads		20090730092306 47911ab1
+D s-multip.ads		20101011073009 38ac9f73
+D s-osinte.ads		20101127183452 6e2d2e09
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stausa.ads		20101018101807 bba781f7
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-tasinf.ads		20090409150019 21316953
+D s-taspri.ads		20080408071349 af44aca8
+D s-taprop.ads		20090409150019 07f79e46
+D s-taskin.ads		20101021101406 b2eaee08
+D s-taprob.ads		20090409150019 502249e3
+D s-tpoben.ads		20090409150019 e8374469
+D s-tasren.ads		20090409150019 86fa7427
+D s-tassta.ads		20101018103456 e88ef99e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+D tiposemaforos.ads	20090425135850 4c59681e
+D tiposemaforos.adb	20090425135710 6b6c484a
+X 1 ada.ads
+16K9*Ada 19e8 20|1r6 1r19 1r40 2r5 2r18 2r39
+X 7 a-flteio.ads
+20K13*Float_Text_IO[14|45] 20|1w44 2r43
+X 8 a-inteio.ads
+18K13*Integer_Text_IO[15|45] 20|1w23 2r22
+X 13 a-textio.ads
+49K13*Text_IO 472e16 20|1w10 2r9
+264U14*Put_Line 20|23s41 27s41 31s41 35s41 50s41 56s41 58s41 72s41 74s41
+. 90s33 92s33 107s41 113s41 115s41 133s41 135s41
+X 20 misimulador.adb
+6U11*misimulador 6b11 180l5 180t16
+8K17 Paquete_Semaforos[52|3] 9r13
+10t9 sillinlisto{52|4T8[8]} 29m54 136m48 149m22
+11t9 marcolistosinpintar{52|4T8[8]} 93m40 110m55 150m22
+12t9 marcospintados{52|4T8[8]} 25m54 118m56 151m22
+13t9 rayolisto{52|4T8[8]} 53m54 75m48 152m22
+14t9 ruedalista{52|4T8[8]} 33m54 59m48 153m22
+19T19 maquinaensambladora 19d39 20b19 37l13 37t32 39r48 177r63
+19i39 pid{natural}
+22i29 i{integer}
+24i45 j{integer}
+28i45 j{integer}
+32i45 j{integer}
+39P14 Tipomaquinaensambladora(19T19) 40r34
+40p9 unamaquinaensambladora{39P14} 177m33
+46T19 maquinaruedas 46d33 47b19 61l13 61t26 63r42 173r56
+46i33 pid{natural}
+49i29 i{integer}
+52i45 j{integer}
+63P14 Tipomaquinaruedas(46T19) 64r28
+64p9 unamaquinaruedas{63P14} 173m33
+68T19 maquinarayos 68d32 69b19 77l13 77t25 79r41 169r56
+68i32 pid{natural}
+71i29 i{integer}
+79P14 Tipomaquinarayos(68T19) 80r27
+80p9 unamaquinarayos{79P14} 169m33
+86T19 maquinamarcos 86d33 87b19 95l13 95t26 96r42 165r57
+86i33 pid{natural}
+89i29 i{integer}
+96P14 Tipomaquinamarcos(86T19) 97r28
+97p9 unamaquinamarcos{96P14} 165m33
+103T19 maquinapintora 103d34 104b19 122l13 122t27 124r43 161r58
+103i34 pid{natural}
+106i29 i{integer}
+109i45 j{integer}
+117i45 j{integer}
+124P14 Tipomaquinapintora(103T19) 125r29
+125p9 unamaquinapintora{124P14} 161m33
+129T19 maquinasillines 129d35 130b19 138l13 138t28 140r44 157r59
+129i35 pid{natural}
+132i29 i{integer}
+140P14 Tipomaquinasillines(129T19) 141r30
+141p9 unaMaquinasillines{140P14} 157m33
+156i21 i{integer} 157r75
+160i21 i{integer} 161r73
+164i21 i{integer} 165r71
+168i21 i{integer} 169r69
+172i21 i{integer} 173r70
+176i21 i{integer} 177r83
+X 21 random.ads
+5K9*Random 20|4w6 21|14e11
+X 52 tiposemaforos.ads
+3k10*tipoSemaforos 20|3w6 8r42 52|12e18
+4T8 TSemaforo 20|10r22[8] 11r31[8] 12r26[8] 13r21[8] 14r22[8]
+5U13 Wait 20|25s49[8] 29s49[8] 33s49[8] 53s49[8] 110s49[8] 149s17[8] 150s17[8]
+. 151s17[8] 152s17[8] 153s17[8]
+6U13 Signal 20|59s41[8] 75s41[8] 93s33[8] 118s49[8] 136s41[8]
+

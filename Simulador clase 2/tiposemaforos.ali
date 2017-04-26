@@ -1,0 +1,24 @@
+V "GNAT Lib v4.6"
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnvvnnnnnnnnnnnnnnnnv3nv2nnnnnnnn
+
+U tiposemaforos%b	tiposemaforos.adb	27352054 NE OO PK GE
+
+U tiposemaforos%s	tiposemaforos.ads	4c59681e BN EE NE OO PK GE
+
+D system.ads		20140416172229 23e1f70b
+D tiposemaforos.ads	20090425135850 4c59681e
+D tiposemaforos.adb	20090425135710 6b6c484a
+X 2 tiposemaforos.ads
+2i3 ValorInicial{natural} 3|11r19
+3k10*tipoSemaforos 2z3 12l5 12e18 3|1b14 26l5 26t18
+4T8*TSemaforo 5r31 6r33 11l7 11e16 3|2r31 6r33 10b13 25l7 25t16
+5U13*Wait 5=19 3|2b13 5l10 5t14
+5t19 Sem{4T8} 3|2b19 4r7
+6U13*Signal 6=21 3|6b13 9l10 9t16
+6t21 Sem{4T8} 3|6b21 8r7
+9Y11 Wait 3|4s11 16b18
+10Y11 Signal 3|8s11 19b16
+X 3 tiposemaforos.adb
+11i5 S{natural} 15r14 17m11 17r16 20m9 20r14
+

@@ -1,0 +1,56 @@
+V "GNAT Lib v4.6"
+P ZX
+R nnnnnnnvnvnnnnnnnnnnnnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnvnnnnnnnnnnnnnnnn
+
+U random%b		random.adb		3cfb6ec9 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+
+U random%s		random.ads		45de46a1 EE NE OO PK
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20090409150019 343c83dd
+D a-except.ads		20090727140100 0c711ac9
+D a-numeri.ads		20080324174807 bb51c45a
+D a-nuflra.ads		20100622172941 49c50e0b
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20090409150019 f77d8799
+D random.ads		20121027093926 45de46a1
+D random.adb		20121027093926 04dca5be
+D system.ads		20140416172229 23e1f70b
+D s-exctab.ads		20090417131547 66e51330
+D s-parame.ads		20091130110856 9c5d83fa
+D s-rannum.ads		20100623054052 5eb33f0a
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-traent.ads		20090417130712 5221ee41
+X 1 ada.ads
+16K9*Ada 19e8 9|5r6 6r6 8r16 12r14 20r18 20r39 24r4 25r27
+X 2 a-calend.ads
+36K13*Calendar 358e17 9|6w10 20r22 20r43 25r31
+38I9*Time 9|20r31
+50O12*Day_Duration{duration}
+52V13*Clock{38I9} 9|20s52
+61V13*Seconds{50O12} 9|25s40
+X 4 a-numeri.ads
+16K13*Numerics 32e17 9|5r10 8r20 12r18 24r8
+X 5 a-nuflra.ads
+41K22*Float_Random 72e30 9|5w19 8r29 12r27 24r17
+45R9*Generator 9|8r42
+47F12*Uniformly_Distributed{float}
+49V13*Random{47F12}<13|62p13> 9|12s40
+52U14*Reset<13|97p14> 9|24s30
+X 8 random.ads
+5K9*Random 14l5 14e11 9|7b14 26l5 26t11
+7V13*Float_Random{float} 9|10b13 13l8 13t20 17s42
+9V13*Positive_Random{positive} 9>30 9|15b13 18l8 18t23
+9i30 Maximo{natural} 9|15b30 17r30
+X 9 random.adb
+8r4 Generador{5|45R9} 12r48 25r7
+20i4 Hora_Actual{2|38I9} 25r49
+
